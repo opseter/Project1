@@ -1,0 +1,2 @@
+C:/Users/KX/Documents/project/OpenGL/Project1/Project1/src/vender/glm/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/KX/Documents/project/OpenGL/Project1/Project1/src/vender/glm/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
