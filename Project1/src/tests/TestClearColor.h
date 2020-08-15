@@ -12,7 +12,7 @@ namespace test{
 
 		void OnUpdate(float deltaTime) override;
 		void OnRender() override;
-		void OnTimeGuiRender();
+		void OnImGuiRender() override;
 	private:
 		float m_ClearColor[4];
 	};

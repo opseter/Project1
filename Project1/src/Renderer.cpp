@@ -23,7 +23,11 @@ void Renderer::Draw(const VertexArray& va, const IndexBuffer& ib, const Shader& 
     GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
 }
 
-void Renderer::Clear(float r,float g,float b) const
+void Renderer::SetClearColor() const
+{
+}
+
+void Renderer::Clear(float r,float g,float b,float a) const
 {
     GLCall(glClearColor(r, g, b, 1.0f));
     //GLCall(glClearColor(1.0f,1.0f,1.0f, 1.0f));
