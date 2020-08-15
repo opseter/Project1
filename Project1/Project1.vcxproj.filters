@@ -71,10 +71,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shaders\Basic.shader" />
-    <None Include="res\shaders\Triangle.shader" />
-    <None Include="res\shaders\Basic2.shader" />
-    <None Include="res\shaders\Test.shader" />
     <None Include="src\vender\glm\detail\func_common.inl">
       <Filter>Header Files</Filter>
     </None>
@@ -483,7 +479,11 @@
     <None Include="src\vender\glm\gtx\wrap.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="res\shaders\Basic.shader" />
+    <None Include="res\shaders\Basic2.shader" />
+    <None Include="res\shaders\Test.shader" />
     <None Include="res\shaders\Test2.shader" />
+    <None Include="res\shaders\Triangle.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
@@ -1389,5 +1389,16 @@
     <ClInclude Include="src\tests\TestTexture2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\pic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\pic2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
